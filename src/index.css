@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.icon col {
+  width: 15%,
+  height: 20%,
+
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
