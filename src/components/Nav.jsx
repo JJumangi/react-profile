@@ -5,7 +5,7 @@ function Nav({ currentPage, handlePageChange}) {
     <>
     <section id= "nav" className= 'container=fluid border mb-5 pt-3 pb-3'>
       <header className= "row">
-          <head id= "navbar" className = "col">Jon Armajani</head>
+          <div id= "navbar" className = "col">Jon Armajani</div>
           <ul className='nav nav-bar col d-flex justitfy-content-end'>
             <li id="nav-bar" className= "nav-bar">
               <a href="#aboutme"

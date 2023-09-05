@@ -67,9 +67,9 @@ function ContactMe() {
             </input>
           </div>
 
-          <btn class= "btn btn-outline-dark mb-5" 
+          <button class= "btn btn-outline-dark mb-5" 
               type= "submit"
-              onSubmit={handleSubmit}>Contact</btn>
+              onSubmit={handleSubmit}>Contact</button>
         </form>
       </section>
     </div>

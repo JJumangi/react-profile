@@ -4,9 +4,10 @@
   text-align: center;
 }
 
-.icon col {
-  width: 15%,
-  height: 20%,
+img.icon.col {
+  width: 290px;
+  height: 220px;
+  display: inline-flex;
 
 }
 
@@ -15,15 +16,24 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #444444;
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+  --background-color:  #535bf2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
 }
 
 a {
@@ -55,7 +65,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color:#2ecc71;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -79,3 +89,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
