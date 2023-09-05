@@ -1,8 +1,18 @@
-# React + Vite
+# **React Portfolio Assignment**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## **Assignment Intention**
 
-Currently, two official plugins are available:
+For this assignment:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- I created a portfolio application using React Vite.
+
+## **Link to Application's Walk-Through**
+
+https://drive.google.com/file/d/1ZFcpwnuZbuzSs0DAEiCOZxXyFlGy_GOj/view
+
+## **Link to Application's Live Deployment**
+
+https://jate-pwa-armajani-bdd1448d4917.herokuapp.com/
+
+Thank you for looking at my project!
+-Jon
