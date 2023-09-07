@@ -4,7 +4,7 @@ export default function Resume (){
 
 
 
-  return <section id ="resume" className="container">
+  return <div id ="resume" className="container">
     <h1 id="resume-head" className= "mb-4 fw-bold">Resume</h1>
     <p id="resume-link">View Resume</p> 
     {/* put resume link here */}
@@ -25,5 +25,5 @@ export default function Resume (){
       <li>Mongoose</li>
       <li>React.js</li>
     </ul>
-  </section>
+  </div>
 }

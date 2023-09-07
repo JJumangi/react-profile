@@ -20,7 +20,7 @@ function ContactMe() {
 
   return(
     <div className= 'box'>
-      <section className= 'container'>
+      <div className= 'container'>
         <h1 id ='contact-head' className= 'mb-5 fw-bold'>Contact Jon</h1>
         <form>
           {error &&(
@@ -71,7 +71,7 @@ function ContactMe() {
               type= "submit"
               onSubmit={handleSubmit}>Contact</button>
         </form>
-      </section>
+      </div>
     </div>
   );
 }

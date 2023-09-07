@@ -3,7 +3,7 @@ import React from 'react';
 function Nav({ currentPage, handlePageChange}) {
   return (
     <>
-    <section id= "nav" className= 'container=fluid border mb-5 pt-3 pb-3'>
+    <div id= "nav" className= 'container=fluid border mb-5 pt-3 pb-3'>
       <header className= "row">
           <div id= "navbar" className = "col">Jon Armajani</div>
           <ul className='nav nav-bar col d-flex justitfy-content-end'>
@@ -41,7 +41,7 @@ function Nav({ currentPage, handlePageChange}) {
             
           </ul>
       </header>
-    </section>
+    </div>
     </>
 
   );
